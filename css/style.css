@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Comic_Neu;
+    src: url('../font/Comic_Neue/ComicNeue-Regular.ttf');
+}
+
+@font-face {
+    font-family: Comic_Neu_Bold;
+    src: url('../font/Comic_Neue/ComicNeue-Bold.ttf');
+}
