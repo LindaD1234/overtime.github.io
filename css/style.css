@@ -1,0 +1,27 @@
+/*FOnt*/
+/*Linda*/
+@import url('https://fonts.googleapis.com/css?family=Comic+Neue');
+
+/*Navigation bar*/
+#nav{
+    position: fixed;
+    left: calc(50% - 50px);
+    top: 20px;
+    z-index: 1;
+}
+
+.nav-btn{
+	width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid black;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.nav-btn:hover{
+	background-color: black;
+}
+/*Linda*/
