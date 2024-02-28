@@ -7,3 +7,80 @@
     font-family: Comic_Neu_Bold;
     src: url('../font/Comic_Neue/ComicNeue-Bold.ttf');
 }
+
+/* Navigation style */
+
+#nav{
+    position: fixed;
+    left: calc(50% - 50px);
+    top: 20px;
+    z-index: 1;
+}
+
+.nav-btn{
+	width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid black;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.nav-btn:hover{
+	background-color: black;
+}
+
+/* /background/ */
+#city{
+	height: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+#city{
+	/* ID */
+	/* No file yet */
+	background-image: url('img/city.jpg');
+}
+
+.button {
+  /* class */
+  background-color: #04AA6D; 
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  /* button for xxx */
+  background-color: white; 
+  color: black; 
+  border: 2px solid #04AA6D;
+}
+
+.button1:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.button2 {
+  /* button for xxx */
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
