@@ -22,8 +22,7 @@ body, html {
 #nav{
     gap: 5px;
     position: fixed;
-    left: 0; /* Start from the left edge */
-    right: 0; /* Stretch to the right edge to allow horizontal centering */
+    left: 10px; /* Adjust this value to control spacing from the left edge */
     top: 20px; /* Position from the top */
     z-index: 1;
     display: flex; /* Use flexbox to align children */
@@ -54,8 +53,6 @@ body, html {
 }
 
 #city{
-	/* ID */
-	/* No file yet */
 	background-image: url('img/city.jpg');
 }
 
@@ -69,20 +66,20 @@ body, html {
 .button {
     margin-top: 20px;
     display: inline-block; /* Allows the buttons to sit side by side */
-    background-color: #007bff; /* Example button color */
+    background-color: black; /* Example button color */
     color: white; /* Text color */
     padding: 10px 20px; /* Button padding */
     text-align: center; /* Center the text inside the button */
     text-decoration: none; /* Remove underline from links */
     font-size: 16px; /* Set font size */
-    border: none; /* No border */
+    border: none; 
     border-radius: 5px; /* Rounded corners */
     cursor: pointer; /* Change mouse cursor to pointer */
     transition: background-color 0.3s; /* Smooth background color transition on hover */
 }
 
 .button:hover {
-    background-color: #04AA6D;
+    background-color: red;
     color: white;
 }
 
@@ -115,38 +112,72 @@ body, html {
 
 /* Intro Section */
 .section_intro {
-    background-image: url('../images/City-Scape.png');
-    background-color: #333;
+    /* background-image: url('../images/City-Scape.png'); */
+    background-color: white;
     text-align: center;
 }
 
 
-#mesopotamiaBackground {
+#scenario1 {
     background-image: url('../images/dawn.jpeg');
-    background-color: #5A3921; /* Fallback color */
+    background-color: white; /* Fallback color */
     
 }
 
-#athensBackground {
+#scenario2 {
     background-image: url('../images/athens.webp');
-    background-color: #3E738E; /* Fallback color */
+    background-color: white; /* Fallback color */
 }
 
-#renaissanceBackground {
-    background-image: url('../images/renaissance.jpg');
+#scenario3 {
+    background-image: url('../images/City-Scape.png');
     background-color: #5E4B56; /* Fallback color */
 }
 
-#industrialBackground {
+#scenario4 {
     background-image: url('../images/industrail_revoloution.webp');
     background-color: #3A3A3A; /* Fallback color */
 }
 
-#digitalBackground {
+#scenario5 {
     background-image: url('../images/digi_age.webp');
     background-color: #2E3A59; /* Fallback color */
 }
 
+#scenario6 {
+    background-image: url('../images/digi_age.webp');
+    background-color: #2E3A59; /* Fallback color */
+}
+
+#scenario7 {
+    background-image: url('../images/digi_age.webp');
+    background-color: #2E3A59; /* Fallback color */
+}
+
+#scenario8 {
+    background-image: url('../images/digi_age.webp');
+    background-color: #2E3A59; /* Fallback color */
+}
+
+#scenario9 {
+    background-image: url('../images/digi_age.webp');
+    background-color: #2E3A59; /* Fallback color */
+}
+
+#scenario10 {
+    background-image: url('../images/digi_age.webp');
+    background-color: #2E3A59; /* Fallback color */
+}
+
+#scenario11 {
+    background-image: url('../images/digi_age.webp');
+    background-color: #2E3A59; /* Fallback color */
+}
+
+#scenario12 {
+    background-image: url('../images/digi_age.webp');
+    background-color: #2E3A59; /* Fallback color */
+}
 /* Typography */
 h1, h2 {
     margin: 0 0 20px 0;
@@ -177,6 +208,12 @@ h1, h2 {
 	width: 70%;
 }
 
+
+#clock_image{
+display: flex;
+width: 50%;
+margin: auto;
+}
 /* #comic_image{
   padding: 0;
 } */
