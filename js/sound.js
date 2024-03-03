@@ -9,16 +9,16 @@ window.addEventListener('hashchange', function() {
     // Play the sound corresponding to the current hash
     switch(hash) {
       case '#intro-city':
-        document.getElementById('alarm').play();
+        document.getElementById('bed_sheet').play();
         break;
       case '#first-strip':
-        document.getElementById('traffic').play();
+        document.getElementById('alarm').play();
         break;
       case '#second-strip':
         document.getElementById('office').play();
         break;
       case '#third-strip':
-        document.getElementById('scream').play();
+        document.getElementById('traffic').play();
         break;
       case '#fourth-strip':
         document.getElementById('birds').play();
