@@ -165,18 +165,9 @@ body, html {
 }
 
 #scenario10 {
-    background-image: url('../images/digi_age.webp');
-    background-color: #2E3A59; /* Fallback color */
-}
-
-#scenario11 {
-    background-image: url('../images/digi_age.webp');
-    background-color: #2E3A59; /* Fallback color */
-}
-
-#scenario12 {
     background-color: white; /* Fallback color */
 }
+
 /* Typography */
 h1, h2 {
     margin: 0 0 20px 0;
