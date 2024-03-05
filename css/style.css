@@ -119,33 +119,33 @@ body, html {
 
 
 #scenario1 {
-    background-image: url('../images/dawn.jpeg');
+    background-image: url('../images/bed_room.jpeg');
     background-color: white; /* Fallback color */
     
 }
 
 #scenario2 {
-    background-image: url('../images/athens.webp');
+    background-image: url('../images/bed_room.jpeg');
     background-color: white; /* Fallback color */
 }
 
 #scenario3 {
-    background-image: url('../images/City-Scape.png');
+    background-image: url('../images/city.jpeg');
     background-color: #5E4B56; /* Fallback color */
 }
 
 #scenario4 {
-    background-image: url('../images/industrail_revoloution.webp');
+    background-image: url('../images/office.jpeg');
     background-color: #3A3A3A; /* Fallback color */
 }
 
 #scenario5 {
-    background-image: url('../images/digi_age.webp');
+    background-image: url('../images/jail.jpeg');
     background-color: #2E3A59; /* Fallback color */
 }
 
 #scenario6 {
-    background-image: url('../images/digi_age.webp');
+    background-image: url('../images/meadows.jpeg');
     background-color: #2E3A59; /* Fallback color */
 }
 
