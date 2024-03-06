@@ -140,31 +140,26 @@ body, html {
 }
 
 #scenario5 {
-    background-image: url('../images/jail.jpeg');
+    background-image: url('../images/office.jpeg');
     background-color: #2E3A59; /* Fallback color */
 }
 
 #scenario6 {
-    background-image: url('../images/meadows.jpeg');
+    background-image: url('../images/office.jpeg');
     background-color: #2E3A59; /* Fallback color */
 }
 
 #scenario7 {
-    background-image: url('../images/digi_age.webp');
+    background-image: url('../images/jail.jpeg');
     background-color: #2E3A59; /* Fallback color */
 }
 
 #scenario8 {
-    background-image: url('../images/digi_age.webp');
+    background-image: url('../images/meadows.jpeg');
     background-color: #2E3A59; /* Fallback color */
 }
 
 #scenario9 {
-    background-image: url('../images/digi_age.webp');
-    background-color: #2E3A59; /* Fallback color */
-}
-
-#scenario10 {
     background-color: white; /* Fallback color */
 }
 
@@ -204,6 +199,8 @@ display: flex;
 width: 50%;
 margin: auto;
 }
-/* #comic_image{
-  padding: 0;
-} */
+#comic_image_1{
+  display: flex;
+  width: 62.5%;
+  margin: auto;
+}
