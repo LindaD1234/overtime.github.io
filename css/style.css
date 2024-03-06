@@ -196,13 +196,25 @@ h1, h2 {
 }
 
 
-#clock_image{
+#clock_image {
 display: flex;
 width: 50%;
 margin: auto;
 }
-#comic_image_1{
+
+#comic_image_1 {
   display: flex;
   width: 60%;
   margin: auto;
+}
+
+.clock-image {
+    position: absolute;
+    top: 0px; /* Adjust as needed */
+    left: -30px; /* Adjust as needed */
+    width: 200px; /* Adjust based on your clock image size */
+    height: auto;
+    z-index: 10;
+    opacity: 0; /* Start images as invisible */
+    transition: opacity 1s ease-in-out; 
 }
