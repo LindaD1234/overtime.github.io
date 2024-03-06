@@ -4,7 +4,7 @@
 “Overtime” is an interactive comic that narrates the story of an employee who doesn’t want to go to work. Throughout the story, users are presented with various choices, including the temptation to ignore the alarm, potentially leading to job loss, or the more drastic option of confronting the boss, resulting in jail-time. Rooted in a common real-life dilemma, the storyline captures the universal desire to break free from the constraints of reality. Unlike the rigidity of everyday life, users have the autonomy to make choices without taking the consequences. 
 We expect the users to find relaxation in this interactive comic and provide with them a space to let out the stress. 
 
-##Process: 
+## Process: 
 The conception of the comic plot, style of the drawing, and basic wireframe were all determined collectively, while the execution was carried out independently.
 User interactions: The story is pushed forward when users click on the buttons that lead them to different sections based on the choice they make for the character.
 Drawing Design: We aimed for a black-and-white, line-drawing, comic-drawing style that leans toward dark humor. The character is intended to be name-less because they are not a particular subject, but represent all those who suffer from the burden of life. 
