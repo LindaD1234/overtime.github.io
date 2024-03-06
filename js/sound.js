@@ -8,23 +8,32 @@ window.addEventListener('hashchange', function() {
   
     // Play the sound corresponding to the current hash
     switch(hash) {
-      case '#intro-city':
-        document.getElementById('bed_sheet').play();
-        break;
       case '#first-strip':
         document.getElementById('alarm').play();
         break;
       case '#second-strip':
-        document.getElementById('office').play();
+        document.getElementById('alarm').play();
         break;
       case '#third-strip':
         document.getElementById('traffic').play();
         break;
       case '#fourth-strip':
-        document.getElementById('birds').play();
+        document.getElementById('office').play();
         break;
-      case '#fifth-strip':
+        case '#fifth-strip':
+            document.getElementById('office').play();
+            break;
+        case '#sixth-strip':
+            document.getElementById('scream').play();
+            break;
+      case '#seventh-strip':
         document.getElementById('jail').play();
+        break;
+        case '#eighth-strip':
+            document.getElementById('birds').play();
+            break;
+        case '#ninth-strip':
+            document.getElementById('bed').play();
         break;
       
       // Add cases for each section

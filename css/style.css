@@ -165,6 +165,8 @@ body, html {
 
 /* Typography */
 h1, h2 {
+    font-family: Comic_Neu;
+    font-size: 4vw;
     margin: 0 0 20px 0;
     text-shadow: 
         -1px -1px 0 #000,  
@@ -201,6 +203,6 @@ margin: auto;
 }
 #comic_image_1{
   display: flex;
-  width: 62.5%;
+  width: 60%;
   margin: auto;
 }
