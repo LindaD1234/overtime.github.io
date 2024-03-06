@@ -64,6 +64,7 @@ body, html {
 
 
 .button {
+    font-family: Comic_Neue;
     margin-top: 20px;
     display: inline-block; /* Allows the buttons to sit side by side */
     background-color: black; /* Example button color */
@@ -71,7 +72,7 @@ body, html {
     padding: 10px 20px; /* Button padding */
     text-align: center; /* Center the text inside the button */
     text-decoration: none; /* Remove underline from links */
-    font-size: 16px; /* Set font size */
+    font-size: 30px; /* Set font size */
     border: none; 
     border-radius: 5px; /* Rounded corners */
     cursor: pointer; /* Change mouse cursor to pointer */
@@ -165,7 +166,7 @@ body, html {
 
 /* Typography */
 h1, h2 {
-    font-family: Comic_Neu;
+    font-family: Comic_Neu_Bold;
     font-size: 4vw;
     margin: 0 0 20px 0;
     text-shadow: 
@@ -196,7 +197,7 @@ h1, h2 {
 }
 
 
-#clock_image {
+#face_image {
 display: flex;
 width: 50%;
 margin: auto;

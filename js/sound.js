@@ -35,7 +35,5 @@ window.addEventListener('hashchange', function() {
         case '#ninth-strip':
             document.getElementById('bed').play();
         break;
-      
-      // Add cases for each section
     }
   }
